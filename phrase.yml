@@ -1,0 +1,12 @@
+phrase:
+  project_id: b071a5b3c92362e163071e2a9e04bb3f
+  push:
+    sources:
+    - file: ./<locale_name>.docx
+      params:
+        file_format: docx
+  pull:
+    targets:
+    - file: ./test/test.docx
+      params:
+        file_format: docx
